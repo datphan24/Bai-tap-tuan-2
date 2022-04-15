@@ -11,6 +11,7 @@ html {
 
 html,
 body {
+  width: 120rem;
   min-height: 100%;
 }
 
