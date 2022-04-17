@@ -13,13 +13,19 @@ header > nav {
   margin-top: 2rem;
   max-width: 20rem;
 }
+.nav-menu-icon {
+  display: none;
+}
 .navbar-menu {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
 }
+.navbar-menu-mobile-list {
+  display: none;
+}
 .navbar-item {
-  margin-left: 2rem;
+  margin-left: 3.5rem;
 }
 .navbar-item a {
   color: var(--cl-white);
@@ -62,7 +68,7 @@ header > nav {
 }
 .second-content-paragraph {
   position: relative;
-  top: 50%;
+  top: 30%;
 }
 .second-content-paragraph > h2 {
   font: 3rem var(--font-2);
@@ -112,7 +118,7 @@ header > nav {
 }
 .fourth-content-search i {
   position: absolute;
-  top: 4rem;
+  top: 37px;
   right: 0;
 }
 .fourth-content > img {
@@ -188,4 +194,7 @@ footer > p {
 }
 .social-item i {
   color: var(--cl-blue);
+}
+.social-item i:hover {
+  color: var(--cl-brown);
 }

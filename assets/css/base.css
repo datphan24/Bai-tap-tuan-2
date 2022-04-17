@@ -49,6 +49,7 @@ a {
   font-size: 1.5rem;
   font-weight: bolder;
   text-transform: uppercase;
+  border-radius: 3px;
 }
 .button:hover {
   background-color: var(--cl-brown);

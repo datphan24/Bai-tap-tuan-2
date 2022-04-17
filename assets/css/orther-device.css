@@ -1,0 +1,66 @@
+.nav-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+@media screen and (max-width: 768px) {
+  header > nav {
+    justify-content: space-between;
+  }
+  .header-logo,
+  .nav-menu-icon {
+    margin: 3rem 3rem 0 3rem;
+    position: relative;
+    z-index: 3;
+  }
+  .navbar-menu {
+    display: none;
+  }
+  .nav-menu-icon {
+    display: block;
+    font-size: 3rem;
+  }
+  nav {
+    position: relative;
+  }
+  .navbar-menu-mobile-list {
+    position: absolute;
+    top: 8.8rem;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--cl-white);
+    z-index: 2;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .navbar-mobile-item > a {
+    display: block;
+    padding: 2rem 0 2rem 2rem;
+    font-size: 2rem;
+    color: var(--cl-brown);
+    font-weight: bolder;
+  }
+}
+@media screen and (max-width: 425px) {
+  .food-for-dog {
+    display: none;
+  }
+  .fourth-content {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 42rem;
+  }
+  .fourth-content-search,
+  .fourth-content-paragraph {
+    margin: 4rem 0 4rem 30rem;
+    align-self: start;
+  }
+  .fourth-content > img {
+    display: none;
+  }
+}
