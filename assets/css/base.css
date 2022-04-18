@@ -1,3 +1,12 @@
+:root {
+  --cl-white: #fff;
+  --cl-black: #000;
+  --cl-brown: #461f2a;
+  --cl-blue: #4ba3d8;
+  --font-1: 'Roboto', sans-serif;
+  --font-2: 'Pangolin', cursive;
+  --font-3: 'Akshar', sans-serif;
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,13 +16,40 @@
 html {
   font-size: 62.5%;
   position: relative;
+  scroll-behavior: smooth;
+  line-height: 2rem;
 }
 
 html,
 body {
+  width: 120rem;
+  margin: 0 auto;
   min-height: 100%;
+  font-family: var(--font-1);
 }
-
+p {
+  font-size: 1.8rem;
+  font-family: var(--font-3);
+}
 ul {
   list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.heading {
+  text-transform: uppercase;
+  color: var(--cl-brown);
+  font-family: var(--font-2);
+}
+.button {
+  padding: 1.4rem;
+  color: var(--cl-white);
+  background-color: var(--cl-blue);
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.button:hover {
+  background-color: var(--cl-brown);
 }
