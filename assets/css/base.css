@@ -44,13 +44,13 @@ a {
 }
 .button {
   display: inline-block;
-  padding: 5rem;
+  padding: 1.5rem;
   color: var(--cl-white);
   background-color: var(--cl-blue);
   font-size: 1.5rem;
   font-weight: bolder;
   text-transform: uppercase;
-  border-radius: 1rem;
+  border-radius: 0.7rem;
 }
 .button:hover {
   background-color: var(--cl-brown);

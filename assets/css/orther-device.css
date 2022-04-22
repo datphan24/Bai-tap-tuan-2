@@ -54,6 +54,8 @@
   }
   .button {
     font-size: 5rem;
+    padding: 4rem;
+    border-radius: 1rem;
   }
   .header-logo {
     min-width: 40rem;
@@ -84,7 +86,8 @@
     font-size: 6rem;
   }
   .third-content > img {
-    display: none;
+    max-width: 39rem;
+    max-height: 43rem;
   }
   .third-content-paragraph {
     max-width: none;
@@ -122,15 +125,16 @@
     font-size: 6rem;
   }
   .fourth-content > img {
-    display: none;
+    max-width: 25rem;
+    margin: 5rem auto;
   }
   .fifth-content {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .fifth-content > img {
     max-width: 50rem;
     max-height: 50rem;
-    margin: 10rem auto 0;
+    margin: 0 auto 10rem;
   }
   .fifth-content-paragraph {
     max-width: none;
